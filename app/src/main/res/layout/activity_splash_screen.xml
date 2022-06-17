@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    android:textAlignment="center"
+    tools:context=".SplashScreen">
+
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="wrap_content"
+      android:layout_height="534dp"
+      android:layout_marginTop="80dp"
+      android:layout_weight="1"
+      android:fontFamily="@font/bangers"
+      android:gravity="center_horizontal|center_vertical"
+      android:text="Welcome"
+      android:textColor="#E3F2FD"
+      android:textSize="80dp" />
+
+</LinearLayout>
