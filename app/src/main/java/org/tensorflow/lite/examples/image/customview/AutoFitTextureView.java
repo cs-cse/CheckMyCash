@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.lite.examples.classification.customview;
+package org.tensorflow.lite.examples.image.customview;
 
 import android.content.Context;
 import android.util.AttributeSet;

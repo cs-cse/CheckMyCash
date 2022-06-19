@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.lite.examples.classification;
+package org.tensorflow.lite.examples.image;
 
 import static com.google.common.truth.Truth.assertThat;
 
@@ -35,10 +35,10 @@ import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.tensorflow.lite.examples.classification.tflite.Classifier;
-import org.tensorflow.lite.examples.classification.tflite.Classifier.Device;
-import org.tensorflow.lite.examples.classification.tflite.Classifier.Model;
-import org.tensorflow.lite.examples.classification.tflite.Classifier.Recognition;
+import org.tensorflow.lite.examples.image.tflite.Classifier;
+import org.tensorflow.lite.examples.image.tflite.Classifier.Device;
+import org.tensorflow.lite.examples.image.tflite.Classifier.Model;
+import org.tensorflow.lite.examples.image.tflite.Classifier.Recognition;
 
 /** Golden test for Image Classification Reference app. */
 @RunWith(AndroidJUnit4.class)

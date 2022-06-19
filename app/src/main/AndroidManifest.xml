@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.tensorflow.lite.examples.classification" >
+    package="org.tensorflow.lite.examples.image" >
 
     <uses-sdk />
 
@@ -17,10 +17,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ClassifierActivity"
+            android:name="org.tensorflow.lite.examples.image.ClassifierActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name="org.tensorflow.lite.examples.image.SplashScreen"
             android:label="@string/activity_name_classification"
             android:screenOrientation="portrait" >
             <intent-filter>

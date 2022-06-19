@@ -1,4 +1,4 @@
-package org.tensorflow.lite.examples.classification;
+package org.tensorflow.lite.examples.image;
 
 import androidx.appcompat.app.AppCompatActivity;
 

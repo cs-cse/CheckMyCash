@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.lite.examples.classification;
+package org.tensorflow.lite.examples.image;
 
 import android.Manifest;
 import android.app.Fragment;
@@ -53,13 +53,12 @@ import android.widget.Toast;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import java.nio.ByteBuffer;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-import org.tensorflow.lite.examples.classification.env.ImageUtils;
-import org.tensorflow.lite.examples.classification.env.Logger;
-import org.tensorflow.lite.examples.classification.tflite.Classifier.Device;
-import org.tensorflow.lite.examples.classification.tflite.Classifier.Model;
-import org.tensorflow.lite.examples.classification.tflite.Classifier.Recognition;
+import org.tensorflow.lite.examples.image.env.ImageUtils;
+import org.tensorflow.lite.examples.image.env.Logger;
+import org.tensorflow.lite.examples.image.tflite.Classifier.Device;
+import org.tensorflow.lite.examples.image.tflite.Classifier.Model;
+import org.tensorflow.lite.examples.image.tflite.Classifier.Recognition;
 
 public abstract class CameraActivity extends AppCompatActivity
     implements OnImageAvailableListener,
