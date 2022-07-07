@@ -8,7 +8,7 @@ on Android. It makes use of
 to classify whatever it sees from the device's back camera.
 Inference is performed using the TensorFlow Lite Java API. The app
 classifies frames in real-time, displaying the top most probable
-classifications. 
+classifications.Now available on google play store as well.
 
 ## Specifications
 
